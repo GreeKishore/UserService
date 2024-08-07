@@ -36,7 +36,7 @@ public class UserMapper extends BaseModel {
         UserDto userDto = new UserDto();
         userDto.setName(user.getName());
         userDto.setEmail(user.getEmail());
-        userDto.setRoles(user.getRole());
+        userDto.setRoles(user.getRoles());
         userDto.setEmailVerified(user.isEmailVerified());
         return userDto;
     }

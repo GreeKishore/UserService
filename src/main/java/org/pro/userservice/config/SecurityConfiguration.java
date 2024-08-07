@@ -1,4 +1,4 @@
-package org.pro.userservice.config;
+/*package org.pro.userservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,4 +22,6 @@ public class SecurityConfig {
         );
         return http.build();
     }
-}
+}*/
+
+//Commented becoz there is another security configuration
